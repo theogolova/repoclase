@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const { body } = ('express-validator')
+const { body } = require('express-validator')
 
 const validation = [
     body("name").notEmpty().withMessage("debes ingresar un nombre").bail()

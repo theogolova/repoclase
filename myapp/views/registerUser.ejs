@@ -16,7 +16,7 @@
         <div class="input-container ic1">
           <input id="name" class="input" type="text" name="name" placeholder="name" />
           <% if (locals.errors && errors.name) { %>
-            <p class="error"> <%= errors.name %> </p>
+            <p class="error"> <%= errors.name.msg %> </p>
 
           <% } %>
       </div>
