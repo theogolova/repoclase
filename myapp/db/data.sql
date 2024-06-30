@@ -1,0 +1,1 @@
+INSERT INTO USER ("brian", "asads.com", "$2a$10$8tnMOBL/1JQJYvzbrIxAIuLEHx2Uu/OIxse1ghBVzqzZyN.yQcCBC");
